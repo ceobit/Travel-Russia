@@ -1,0 +1,54 @@
+.cover__title {
+    position: absolute;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    z-index: 2;
+
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: calc(100% - 32px);
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .cover__title {
+        font-size: calc((100vw - 426px)/(768 - 426) * (72 - 40) + 40px);
+        line-height: 56px;
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover__title {
+        font-size: 72px;
+        line-height: 78px;
+        width: calc(100% - 100px);
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .cover__title {
+        font-size: 72px;
+        line-height: 78px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .cover__title {
+        font-size: 72px;
+        line-height: 78px;
+        width: calc(100% - 100px);
+    }
+}

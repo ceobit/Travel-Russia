@@ -1,0 +1,32 @@
+.cover__image {
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: auto;
+    background: #000000;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__image {
+        min-height: 216px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .cover__image {
+        /*min-height: 500px;*/
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover__image {
+        min-height: 562px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .cover__image {
+    }
+}

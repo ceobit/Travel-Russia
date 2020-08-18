@@ -1,0 +1,42 @@
+.lead__caption {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .lead__caption {
+        align-self: flex-start;
+        margin: 8px 0 0 16px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .lead__caption {
+        align-self: flex-start;
+        margin: 16px 0 0 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .lead__caption {
+        align-self: flex-start;
+        margin: 16px 0 0 48px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .lead__caption {
+        align-self: flex-start;
+        margin: 10px 0px 0px 0px;
+    }
+}

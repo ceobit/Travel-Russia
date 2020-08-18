@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width: 425px) {
+    .comment__image {
+        width: 28%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 50%;
+        order: 0;
+    }
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comment__image {
+        width: 28%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 50%;
+        order: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .comment__image {
+        width: 38%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+    @media screen and (min-width: 1025px) {
+        .comment__image {
+            width: 97px;
+            border-radius: 50%;
+        }
+    }
+
+
+

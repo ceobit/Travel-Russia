@@ -1,0 +1,39 @@
+.video__item-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.video__item:hover .video__item-bg {
+    opacity: 0.5;
+    background-color: #2A2C2F;
+    transition: opacity .5s ease-in;
+}
+
+@media screen and (max-width: 425px) {
+    .video__item-bg {
+
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .video__item-bg {
+        min-height: 192px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video__item-bg {
+        min-height: 288px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .video__item-bg {
+        min-height: 323px;
+    }
+}

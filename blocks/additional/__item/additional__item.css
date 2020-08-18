@@ -1,0 +1,8 @@
+.additional__item {
+    position: relative;
+    margin-right: 16px;
+}
+
+.additional__item :nth-child(4) {
+    margin-right: 0px;
+}

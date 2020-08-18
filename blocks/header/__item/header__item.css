@@ -1,0 +1,48 @@
+@import url("./_active/header__item_active.css");
+
+
+.header__item {
+    /*border: 1px solid red;*/
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+
+@media screen and (max-width: 425px) {
+    .header__item {
+        font-size: 18px;
+        line-height: 17px;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .header__item {
+        font-size: 24px;
+        line-height: 23px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header__item {
+        font-size: 24px;
+        line-height: 23px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .header__item {
+        font-size: 24px;
+        line-height: 23px;
+        margin: 0;
+    }
+}

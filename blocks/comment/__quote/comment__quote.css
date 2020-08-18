@@ -1,0 +1,45 @@
+.comment__quote {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 24px 0 0 0;
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 24px 0 0 0;
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .comment__quote {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 42px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .comment__quote {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 42px 0 0 0;
+    }
+}
+

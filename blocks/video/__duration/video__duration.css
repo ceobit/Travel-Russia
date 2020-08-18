@@ -1,0 +1,38 @@
+.video__duration {
+    position: absolute;
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+}
+
+@media screen and (max-width: 425px) {
+    .video__duration {
+        top: 41.66%;
+        left: 5.55%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .video__duration {
+        top: 41%;
+        left: 7%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video__duration {
+        top: 43.40%;
+        left: 6.57%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .video__duration {
+        top: 41.6%;
+        left: 5%;
+    }
+}

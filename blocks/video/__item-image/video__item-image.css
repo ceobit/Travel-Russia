@@ -1,0 +1,32 @@
+.video__item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 425px) {
+    .video__item-image {
+        min-height: 192px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .video__item-image {
+        min-height: 192px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .video__item-image {
+        min-height: 288px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .video__item-image {
+        min-height: 323px;
+    }
+
+}

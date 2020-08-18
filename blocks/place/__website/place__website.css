@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        display: none;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .place__website {
+        margin: 0 0 0 28px;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__website {
+        margin: 0 0 0 32px;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .place__website {
+        margin: 0 0 0 40px;
+        align-self: flex-end;
+    }
+}
